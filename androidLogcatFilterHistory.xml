@@ -3,10 +3,10 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:mine level:error " />
         <option value="package:mine Random" />
         <option value="package:mine Request Body" />
         <option value="package:mine Request Body:" />
-        <option value="package:mine level:error " />
         <option value="package:mine" />
         <option value="package:c" />
         <option value="package:mine searchVideos" />
