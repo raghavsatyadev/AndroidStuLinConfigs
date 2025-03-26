@@ -1,11 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="ActivityManager" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="ActivityManager" />
         <option value="mResumedActivity" />
-        <option value="package:mine " />
         <option value="package:mine" />
         <option value="package:mine VideoPlayer" />
         <option value="package:mine level:error " />
