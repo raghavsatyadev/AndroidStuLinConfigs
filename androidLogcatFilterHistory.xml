@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine GET /dev/v1/stores" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine GET /dev/v1/stores" />
         <option value="package:mine " />
         <option value="ActivityManager" />
         <option value="mResumedActivity" />
@@ -21,7 +23,6 @@
         <option value="package:mine Hello" />
         <option value="appcheck" />
         <option value="package:io.github.raghavsatyadev.sundaramgold" />
-        <option value="package:com.lexmark.mobileone" />
       </list>
     </option>
   </component>
