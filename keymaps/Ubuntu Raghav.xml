@@ -13,9 +13,13 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="GotoTest" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl x" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="SonarLint.AnalyzeFiles" />
   <action id="UpdateRunningApplication" />
