@@ -1,10 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine GET /dev/v1/stores" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine GET /dev/v1/stores" />
         <option value="package:mine " />
+        <option value="package:mine GET /dev/v1/stores" />
         <option value="ActivityManager" />
         <option value="mResumedActivity" />
         <option value="package:mine" />
