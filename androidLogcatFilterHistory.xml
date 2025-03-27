@@ -4,6 +4,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine HideBottomBar" />
+        <option value="package:mine hideBottomButtonWhenKeyBoardOpen" />
         <option value="package:mine hide" />
         <option value="package:mine Destination Routes" />
         <option value="package:mine " />
@@ -22,7 +23,6 @@
         <option value="onMessageReceived" />
         <option value="package:mine onMessageReceived" />
         <option value="package:mine Google" />
-        <option value="package:mine setupGoogleServices" />
       </list>
     </option>
   </component>
