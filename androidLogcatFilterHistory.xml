@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine Destination Routes" />
+    <option name="mostRecentlyUsed" value="package:mine hide" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine hide" />
         <option value="package:mine Destination Routes" />
         <option value="package:mine " />
         <option value="package:mine Destination" />
@@ -22,7 +23,6 @@
         <option value="package:mine Google" />
         <option value="package:mine setupGoogleServices" />
         <option value="package:mine index" />
-        <option value="package:mine Hello" />
       </list>
     </option>
   </component>
