@@ -1,20 +1,19 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine HideBottomBar" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
+        <option value="package:mine level:error " />
         <option value="package:mine HideBottomBar" />
         <option value="package:mine hideBottomButtonWhenKeyBoardOpen" />
         <option value="package:mine hide" />
         <option value="package:mine Destination Routes" />
-        <option value="package:mine " />
         <option value="package:mine Destination" />
         <option value="package:mine GET /dev/v1/stores" />
         <option value="ActivityManager" />
         <option value="mResumedActivity" />
         <option value="package:mine" />
         <option value="package:mine VideoPlayer" />
-        <option value="package:mine level:error " />
         <option value="package:mine Random" />
         <option value="package:mine Request Body" />
         <option value="package:mine Request Body:" />
