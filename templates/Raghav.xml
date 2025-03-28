@@ -14,7 +14,8 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="alogsk" value="AppLog.loge(true, kotlinFileName, &quot;$MethodName$&quot;, $Statement$, Exception())" description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
+  <template name="alogsk" value="AppLogger.e( &quot;$FileName$&quot;.ifEmpty{  &quot;$MethodName$&quot;}, $Statement$)" description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
+    <variable name="FileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
     <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

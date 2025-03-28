@@ -1,10 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
+    <option name="mostRecentlyUsed" value="package:mine ConeBuilderScreen" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine level:error " />
+        <option value="package:mine ConeBuilderScreen" />
         <option value="package:mine " />
+        <option value="package:mine MainScreen" />
+        <option value="package:mine is:crash " />
+        <option value="package:mine level:error " />
         <option value="package:mine HideBottomBar" />
         <option value="package:mine hideBottomButtonWhenKeyBoardOpen" />
         <option value="package:mine hide" />
@@ -20,9 +23,6 @@
         <option value="package:mine Request Body:" />
         <option value="package:c" />
         <option value="package:mine searchVideos" />
-        <option value="onMessageReceived" />
-        <option value="package:mine onMessageReceived" />
-        <option value="package:mine Google" />
       </list>
     </option>
   </component>

@@ -3,7 +3,7 @@
     <complexityCalculationEnabled>true</complexityCalculationEnabled>
     <gutterIconEnabled>false</gutterIconEnabled>
     <displayComplexityThreshold>1</displayComplexityThreshold>
-    <highComplexityThreshold>70</highComplexityThreshold>
+    <highComplexityThreshold>100</highComplexityThreshold>
     <mediumComplexityThreshold>9</mediumComplexityThreshold>
     <inlayHintPosition>TOP</inlayHintPosition>
     <iconInHintEnabled>true</iconInHintEnabled>
