@@ -18,14 +18,17 @@
         <option value="collect last valueType : 55" />
         <option value="collect last valueType : 55" />
         <option value="Current dex file" />
+        <option value="CurrentLocation" />
         <option value="DequeueBuffer" />
         <option value="destroySurfaces" />
         <option value="Dict" />
         <option value="Error opening kernel wakelock" />
         <option value="extent" />
         <option value="Failed to apply optimization" />
+        <option value="frameCommitCallback" />
         <option value="GetClientTargetProperty" />
         <option value="getRecentTasks" />
+        <option value="handleWindowFocusChanged" />
         <option value="ignoring" />
         <option value="int32_t" />
         <option value="JSON string is empty" />
@@ -33,9 +36,13 @@
         <option value="nativeRelease" />
         <option value="nativeSetScreenProjection" />
         <option value="No package ID 79 found for ID 0x790b0007" />
+        <option value="onDisplayChanged" />
+        <option value="onPostWindowFocus" />
+        <option value="onPreWindowFocus" />
         <option value="PerfMonitor" />
         <option value="query -- param skipped: index" />
         <option value="Service" />
+        <option value="setPointerIconType" />
         <option value="ssl_client_socket_impl" />
         <option value="Suppressing notification" />
         <option value="tagSocket" />
@@ -50,7 +57,7 @@
         <option value="Usage not a subset" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="CurrentLocation" />
+        <option value="applyRequestedVisibilityToControl" />
       </list>
     </option>
   </component>
