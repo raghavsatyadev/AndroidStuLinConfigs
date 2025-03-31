@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine ModalCartSheet" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine ModalCartSheet" />
         <option value="package:mine " />
         <option value="package:mine CartScreen" />
         <option value="package:mine is:crash " />
@@ -21,7 +23,6 @@
         <option value="package:mine Random" />
         <option value="package:mine Request Body" />
         <option value="package:mine Request Body:" />
-        <option value="package:c" />
       </list>
     </option>
   </component>
