@@ -1,12 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine Back" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine Back" />
         <option value="package:mine OrderScreen" />
         <option value="package:mine ModalCartSheet" />
-        <option value="package:mine " />
         <option value="package:mine CartScreen" />
         <option value="package:mine is:crash " />
         <option value="package:mine ConeBuilderScreen" />
