@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine reward-points" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine reward-points" />
         <option value="package:mine " />
         <option value="package:mine Back" />
         <option value="package:mine OrderScreen" />
@@ -21,7 +23,6 @@
         <option value="mResumedActivity" />
         <option value="package:mine" />
         <option value="package:mine VideoPlayer" />
-        <option value="package:mine Random" />
       </list>
     </option>
   </component>
