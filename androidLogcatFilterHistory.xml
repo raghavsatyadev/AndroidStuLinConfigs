@@ -1,10 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine reward-points" />
+    <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine reward-points" />
+        <option value="package:mine level:error " />
+        <option value="level:error package:mine " />
+        <option value="is:crash " />
         <option value="package:mine " />
+        <option value="package:mine reward-points" />
         <option value="package:mine Back" />
         <option value="package:mine OrderScreen" />
         <option value="package:mine ModalCartSheet" />
@@ -12,7 +15,6 @@
         <option value="package:mine is:crash " />
         <option value="package:mine ConeBuilderScreen" />
         <option value="package:mine MainScreen" />
-        <option value="package:mine level:error " />
         <option value="package:mine HideBottomBar" />
         <option value="package:mine hideBottomButtonWhenKeyBoardOpen" />
         <option value="package:mine hide" />
@@ -21,8 +23,6 @@
         <option value="package:mine GET /dev/v1/stores" />
         <option value="ActivityManager" />
         <option value="mResumedActivity" />
-        <option value="package:mine" />
-        <option value="package:mine VideoPlayer" />
       </list>
     </option>
   </component>
