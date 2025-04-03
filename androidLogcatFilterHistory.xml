@@ -1,12 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
+    <option name="mostRecentlyUsed" value="package:mine  " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine  " />
+        <option value="package:mine " />
         <option value="package:mine level:error " />
+        <option value="package:mine StoreCartDetails" />
         <option value="level:error package:mine " />
         <option value="is:crash " />
-        <option value="package:mine " />
         <option value="package:mine reward-points" />
         <option value="package:mine Back" />
         <option value="package:mine OrderScreen" />
@@ -21,8 +23,6 @@
         <option value="package:mine Destination Routes" />
         <option value="package:mine Destination" />
         <option value="package:mine GET /dev/v1/stores" />
-        <option value="ActivityManager" />
-        <option value="mResumedActivity" />
       </list>
     </option>
   </component>

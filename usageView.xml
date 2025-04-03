@@ -3,7 +3,8 @@
     <option name="IS_FILTER_DUPLICATED_LINE" value="false" />
   </component>
   <component name="UsageFilteringRuleState">
-    <option value="com.intellij.usages.impl.rules.ImportUsageFilteringRule" />
+    <option value="com.intellij.usages.impl.rules.UsageInGeneratedCodeFilteringRule" />
+    <option value="com.intellij.usages.impl.rules.WriteAccessFilteringRule" />
   </component>
   <component name="UsageViewSettings">
     <option name="EXPORT_FILE_NAME" value="C:/Raghav/CurrentProjects/BulkYoutubeSearch/report.txt" />

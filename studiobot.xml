@@ -1,9 +1,33 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="contextSharingModeV2" value="AskPerProject" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1743688819247">encodeToJsonElement Cannot infer type for this parameter. Specify it explicitly.</historyEntry>
+        <historyEntry timestamp="1743688766796">Kotlin Serializer, I already a string of json, I just want to beautify it and return the string</historyEntry>
+        <historyEntry timestamp="1743688748050">Kotlin Serializer, I already a string of json, I just want to beautify it and return the string</historyEntry>
+        <historyEntry timestamp="1743688548708">AndroidRuntime          FATAL EXCEPTION: OkHttp Dispatcher (Ask Gemini)
+                        Process: com.crispy.cones, PID: 23678
+                        java.lang.IllegalStateException: Unsupported
+                        	at com.crispy.apilib.utils.serialization.DynamicLookupSerializer.deserialize(ContextSerializer.kt:45)
+                        	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+                        	at kotlinx.serialization.internal.NullableSerializer.deserialize(NullableSerializer.kt:30)
+                        	at kotlinx.serialization.json.internal.StreamingJsonDecoder.decodeSerializableValue(StreamingJsonDecoder.kt:69)
+                        	at kotlinx.serialization.json.Json.decodeFromString(Json.kt:165)
+                        	at com.crispy.apilib.utils.serialization.SerializationExtensions.convertJsonStringToPrettyJsonString(SerializationExtensions.kt:59)
+                        	at com.crispy.apilib.di.NetworkModule$LoggingInterceptor.intercept(NetworkModule.kt:121)
+                        	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:126)
+                        	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:203)
+                        	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:527)
+                        	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+                        	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+                        	at java.lang.Thread.run(Thread.java:1012)
+---------------------------- PROCESS ENDED (23678) for package com.crispy.cones ----------------------------</historyEntry>
+        <historyEntry timestamp="1743685996269">how to check easily if all the data classes I have in my project are marked with @Serializable. they are already marked with @Keep</historyEntry>
+        <historyEntry timestamp="1743683526701">Conflict applicable candidates of member and extension: members {fun toList(): kotlin.collections.List&lt;T&gt;}, extensions {fun &lt;T&gt; kotlin.collections.Iterable&lt;T&gt;.toList(): kotlin.collections.List&lt;T&gt;} 
+
+it.storeCartDetails?.cartItems?.toList()</historyEntry>
         <historyEntry timestamp="1743167227687">Don't you think providing it some kind of theme will help more</historyEntry>
         <historyEntry timestamp="1743167150228">when ModalBottomSheet opens it makes the bottom navigation bar white, I need to make it stay in dark mode</historyEntry>
         <historyEntry timestamp="1737880804654">Explain build error: Internal compiler error. See log for more details</historyEntry>

@@ -9,6 +9,7 @@
         <option value="Accessing hidden method" />
         <option value="ActivityManager" />
         <option value="ApkAssets" />
+        <option value="applyRequestedVisibilityToControl" />
         <option value="bufferpool2" />
         <option value="c2::u32" />
         <option value="camxncsintfqsee" />
@@ -57,7 +58,7 @@
         <option value="Usage not a subset" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="applyRequestedVisibilityToControl" />
+        <option value="Unable to open '/data/data/com.crispy.cones/code_cache/" />
       </list>
     </option>
   </component>
