@@ -1,9 +1,30 @@
 <application>
   <component name="StudioBotSettings">
     <option name="contextSharingModeV2" value="AskPerProject" />
+    <option name="dasherProductVariant" value="Free" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744027940335">currently application crashes when I minimise the app and remove location permission, then reopen the app on the same page. this is getting called before even location permission dialog opens
+
+ produceState(location) { value = storeLocationViewModel.getLastKnownLocation() }</historyEntry>
+        <historyEntry timestamp="1744027832705">@LocationViewModel.kt   @OutletViewScreen.kt provide minimal changes to code</historyEntry>
+        <historyEntry timestamp="1744027743685">currently application crashes when I minimise the app and remove location permission, then reopen the app on the same page. produceState(location) { value = storeLocationViewModel.getLastKnownLocation() } this is getting called before even location permission dialog open</historyEntry>
+        <historyEntry timestamp="1744027600867">Make suggestions to improve this code:
+```kotlin
+var location by remember { mutableStateOf&lt;Location?&gt;(null) }
+
+val lastLocation by
+  produceState(location) { value = storeLocationViewModel.getLastKnownLocation() }
+
+location = lastLocation
+
+LocationPermissionDialogCheckView(isBottomSheet = true) { state -&gt;
+  if (state) {
+    scope.launch { location = storeLocationViewModel.getLastKnownLocation() }
+  }
+}
+```</historyEntry>
         <historyEntry timestamp="1743688819247">encodeToJsonElement Cannot infer type for this parameter. Specify it explicitly.</historyEntry>
         <historyEntry timestamp="1743688766796">Kotlin Serializer, I already a string of json, I just want to beautify it and return the string</historyEntry>
         <historyEntry timestamp="1743688748050">Kotlin Serializer, I already a string of json, I just want to beautify it and return the string</historyEntry>
