@@ -51,6 +51,7 @@
         <option value="tagSocket(5) with statsTag=0xffffffff," />
         <option value="uid=10017" />
         <option value="uid=10869" />
+        <option value="Unable to open '/data/data/com.crispy.cones/code_cache/" />
         <option value="Unknown level" />
         <option value="Unknown params" />
         <option value="updateAcquireFence" />
@@ -58,7 +59,7 @@
         <option value="Usage not a subset" />
         <option value="ViewPostIme" />
         <option value="waterplugin" />
-        <option value="Unable to open '/data/data/com.crispy.cones/code_cache/" />
+        <option value="KEY_NOT_FOUND" />
       </list>
     </option>
   </component>

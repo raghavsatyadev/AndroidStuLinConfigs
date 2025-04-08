@@ -3,25 +3,25 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:mine CloudMessagingService" />
         <option value="package:mine is:crash " />
+        <option value="package:mine lateinit var " />
+        <option value="package:mine  CloudMessagingService" />
+        <option value="package:mine  " />
+        <option value="package:mine fcm" />
+        <option value="package:mine Raghav" />
+        <option value="package:mine FCM" />
+        <option value="FCMService" />
+        <option value="package:mine onNewToken" />
+        <option value="package:mine FCMService" />
+        <option value="package:mine AutoSizeText" />
+        <option value="package:mine AutoResizeTextView" />
+        <option value="package:mine APICall | OutletViewScreen" />
+        <option value="package:mine APICall | " />
+        <option value="package:mine APICall" />
+        <option value="package:mine location" />
         <option value="package:mine LocationPermissionDialogCheckView" />
         <option value="package:mine" />
-        <option value="package:mine level:error " />
-        <option value="package:mine runCatchingWithLogging" />
-        <option value="package:mine runcatchingwith" />
-        <option value="package:mine  level:error " />
-        <option value="package:mine  " />
-        <option value="package:mine StoreCartDetails" />
-        <option value="level:error package:mine " />
-        <option value="is:crash " />
-        <option value="package:mine reward-points" />
-        <option value="package:mine Back" />
-        <option value="package:mine OrderScreen" />
-        <option value="package:mine ModalCartSheet" />
-        <option value="package:mine CartScreen" />
-        <option value="package:mine ConeBuilderScreen" />
-        <option value="package:mine MainScreen" />
-        <option value="package:mine HideBottomBar" />
       </list>
     </option>
   </component>

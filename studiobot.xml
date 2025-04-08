@@ -5,6 +5,38 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744123062778">FATAL EXCEPTION: main (Ask Gemini)
+                        Process: com.crispy.cones, PID: 13201
+                        java.lang.RuntimeException: Unable to create service com.crispy.cones.service.CloudMessagingService: java.lang.UnsupportedOperationException: `Factory.create(String, CreationExtras)` is not implemented. You may need to override the method and provide a custom implementation. Note that using `Factory.create(String)` is not supported and considered an error.
+                        	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5111)
+                        	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+                        	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2506)
+                        	at android.os.Handler.dispatchMessage(Handler.java:106)
+                        	at android.os.Looper.loopOnce(Looper.java:230)
+                        	at android.os.Looper.loop(Looper.java:319)
+                        	at android.app.ActivityThread.main(ActivityThread.java:8934)
+                        	at java.lang.reflect.Method.invoke(Native Method)
+                        	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588)
+                        	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)
+                        Caused by: java.lang.UnsupportedOperationException: `Factory.create(String, CreationExtras)` is not implemented. You may need to override the method and provide a custom implementation. Note that using `Factory.create(String)` is not supported and considered an error.
+                        	at androidx.lifecycle.viewmodel.internal.ViewModelProviders.unsupportedCreateViewModel$lifecycle_viewmodel_release(ViewModelProviders.kt:51)
+                        	at androidx.lifecycle.ViewModelProvider$Factory.create(ViewModelProvider.android.kt:143)
+                        	at com.crispy.cones.service.CloudMessagingService.onCreate(CloudMessagingService.kt:52)
+                        	at android.app.ActivityThread.handleCreateService(ActivityThread.java:5098)
+                        	at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0) 
+                        	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2506) 
+                        	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                        	at android.os.Looper.loopOnce(Looper.java:230) 
+                        	at android.os.Looper.loop(Looper.java:319) 
+                        	at android.app.ActivityThread.main(ActivityThread.java:8934) 
+                        	at java.lang.reflect.Method.invoke(Native Method) 
+                        	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:588) 
+                        	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1103)</historyEntry>
+        <historyEntry timestamp="1744122858467">How do I make an object of datastoreManager and userDetailsViewModel  @CloudMessagingService.kt   @DatastoreManager.kt   @UserDetailsViewModel.kt</historyEntry>
+        <historyEntry timestamp="1744107366729">if its overflowing after \n allow it to overflow, but a continuos word should not get cut and go into the 2nd line</historyEntry>
+        <historyEntry timestamp="1744104888706">@TextStyles.kt   @AutoResizeTextView.kt   @ConeSelectorCard.kt check the code now and the image, I want the traditional text to be in a single line, if font size is too large for it to hold in single line, I need to gradually decrease the font size for that specific textview</historyEntry>
+        <historyEntry timestamp="1744103852687">its not going into textLayoutResult.didOverflowWidth</historyEntry>
+        <historyEntry timestamp="1744103582654">@TextStyles.kt   @ConeSelectorCard.kt my auto resize text view is not working, the text view is overflowing and going into second line</historyEntry>
         <historyEntry timestamp="1744027940335">currently application crashes when I minimise the app and remove location permission, then reopen the app on the same page. this is getting called before even location permission dialog opens
 
  produceState(location) { value = storeLocationViewModel.getLastKnownLocation() }</historyEntry>
