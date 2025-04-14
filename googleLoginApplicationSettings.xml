@@ -7,18 +7,8 @@
           <value>
             <set>
               <option value="Firebase" />
-              <option value="Gemini" />
+              <option value="GiAS" />
               <option value="Android Vitals" />
-              <option value="User Info" />
-            </set>
-          </value>
-        </entry>
-        <entry key="raghavsatyadev@gmail.com">
-          <value>
-            <set>
-              <option value="Android Vitals" />
-              <option value="Firebase" />
-              <option value="Gemini" />
               <option value="User Info" />
             </set>
           </value>
