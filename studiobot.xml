@@ -5,6 +5,12 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744636169197">I'm getting the following error while building my project. The error is: Unresolved reference 'SerializedName'.
+```
+$ ./gradlew :apilib:compileDebugKotlin
+e: file:///home/raghav/Documents/Raghav/Projects/CrispyCone/apilib/src/main/java/com/crispy/apilib/models/checkout/PaymentMethod.kt:50:4 Unresolved reference 'SerializedName'.
+```
+How do I fix this?</historyEntry>
         <historyEntry timestamp="1744123062778">FATAL EXCEPTION: main (Ask Gemini)
                         Process: com.crispy.cones, PID: 13201
                         java.lang.RuntimeException: Unable to create service com.crispy.cones.service.CloudMessagingService: java.lang.UnsupportedOperationException: `Factory.create(String, CreationExtras)` is not implemented. You may need to override the method and provide a custom implementation. Note that using `Factory.create(String)` is not supported and considered an error.
