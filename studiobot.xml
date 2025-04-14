@@ -5,6 +5,26 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744658370494">I'm getting the following error while building my project. The error is: The consumer was configured to find a library for use during compile-time, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '8.9.1', attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'debug', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm'. However we cannot choose between the following variants of project :apilib:
+```
+Could not determine the dependencies of task ':app:compileDebugJavaWithJavac'.
+&gt; Could not resolve all dependencies for configuration ':app:debugCompileClasspath'.
+   &gt; Could not resolve project :apilib.
+     Required by:
+         project :app
+      &gt; The consumer was configured to find a library for use during compile-time, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '8.9.1', attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'debug', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm'. However we cannot choose between the following variants of project :apilib:
+          - devDebugApiElements
+          - prodDebugApiElements
+          - sandboxDebugApiElements
+        All of them match the consumer attributes:
+...
+Caused by: org.gradle.internal.component.resolution.failure.exception.VariantSelectionByAttributesException: The consumer was configured to find a library for use during compile-time, preferably optimized for Android, as well as attribute 'com.android.build.api.attributes.AgpVersionAttr' with value '8.9.1', attribute 'com.android.build.api.attributes.BuildTypeAttr' with value 'debug', attribute 'org.jetbrains.kotlin.platform.type' with value 'androidJvm'. However we cannot choose between the following variants of project :apilib:
+  - devDebugApiElements
+  - prodDebugApiElements
+  - sandboxDebugApiElements
+All of them match the consumer attributes:
+```
+How do I fix this?</historyEntry>
         <historyEntry timestamp="1744636169197">I'm getting the following error while building my project. The error is: Unresolved reference 'SerializedName'.
 ```
 $ ./gradlew :apilib:compileDebugKotlin
