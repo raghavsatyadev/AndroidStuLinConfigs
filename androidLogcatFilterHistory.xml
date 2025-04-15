@@ -1,10 +1,17 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine OutletListViewScreen" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine OutletListViewScreen" />
+        <option value="package:mine AppGraph Reward" />
+        <option value="package:mine appGraph" />
         <option value="package:mine " />
-        <option value="package:mine level:error " />
         <option value="package:mine is:crash " />
+        <option value="package:mine ConeBuilderScreen" />
+        <option value="package:mine rewardMenuItemDetails" />
+        <option value="package:mine RewardTiers" />
+        <option value="package:mine level:error " />
         <option value="package:mine iscr'" />
         <option value="package:mine CloudMessagingService" />
         <option value="package:mine lateinit var " />
@@ -16,12 +23,6 @@
         <option value="FCMService" />
         <option value="package:mine onNewToken" />
         <option value="package:mine FCMService" />
-        <option value="package:mine AutoSizeText" />
-        <option value="package:mine AutoResizeTextView" />
-        <option value="package:mine APICall | OutletViewScreen" />
-        <option value="package:mine APICall | " />
-        <option value="package:mine APICall" />
-        <option value="package:mine location" />
       </list>
     </option>
   </component>
