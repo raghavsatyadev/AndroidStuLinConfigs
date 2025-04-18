@@ -5,10 +5,9 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="alogsk" value="AppLogger.e( &quot;$FileName$&quot;,&quot;$MethodName$: $Statement$&quot;)" description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
-    <variable name="FileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <template name="alogsk" value="AppLog.loge(true, kotlinFileName, &quot;$MethodName$&quot;,$Message$, Exception())" description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
     <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
-    <variable name="Statement" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
@@ -124,6 +123,15 @@
     <variable name="Screen" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
     <context>
       <option name="COMPOSE" value="true" />
+    </context>
+  </template>
+  <template name="calogsk" value="AppLog.loge(true, &quot;$FileName$&quot;, &quot;$MethodName$&quot;,$Message$, Exception())" description="Object log with Applog#logs" toReformat="true" toShortenFQNames="true">
+    <variable name="FileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="MethodName" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="Message" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPOSE" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
