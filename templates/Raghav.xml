@@ -120,4 +120,10 @@
       <option name="XML_ATTRIBUTE" value="true" />
     </context>
   </template>
+  <template name="screen" value="&#10;import androidx.compose.foundation.layout.Column&#10;import androidx.compose.foundation.layout.padding&#10;import androidx.compose.material3.Scaffold&#10;import androidx.compose.runtime.Composable&#10;import androidx.compose.ui.Modifier&#10;import androidx.hilt.navigation.compose.hiltViewModel&#10;import dagger.hilt.android.lifecycle.HiltViewModel&#10;import io.github.raghavsatyadev.support.core.CoreViewModel&#10;import javax.inject.Inject&#10;&#10;@Composable&#10;fun $Screen$(viewModel: $Screen$ViewModel = hiltViewModel()) {&#10;  Scaffold(modifier = Modifier) { innerPadding -&gt;&#10;    Column(modifier = Modifier.padding(innerPadding)) {}&#10;  }&#10;}&#10;&#10;@HiltViewModel class $Screen$ViewModel @Inject constructor() : CoreViewModel()&#10;" description="Adds a Compose Screen with ViewModel" toReformat="false" toShortenFQNames="true">
+    <variable name="Screen" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="COMPOSE" value="true" />
+    </context>
+  </template>
 </templateSet>
