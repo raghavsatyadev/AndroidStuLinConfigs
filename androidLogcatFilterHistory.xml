@@ -1,11 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine LoginScreen" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine LoginScreen" />
         <option value="package:mine MainScreen" />
-        <option value="package:mine " />
         <option value="package:mine UiStateManager" />
         <option value="package:mine showLoader" />
         <option value="package:mine OutletListViewScreen" />
