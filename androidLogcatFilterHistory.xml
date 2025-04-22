@@ -1,9 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine " />
         <option value="package:mine level:error " />
+        <option value="package:io.github.raghavsatyadev.scus" />
+        <option value="package:mine " />
         <option value="package:mine AppLog" />
         <option value="package:mine LoginScreen" />
         <option value="package:mine MainScreen" />
@@ -21,7 +23,6 @@
         <option value="package:mine lateinit var " />
         <option value="package:mine  CloudMessagingService" />
         <option value="package:mine  " />
-        <option value="package:mine fcm" />
       </list>
     </option>
   </component>
