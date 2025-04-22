@@ -1,7 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine AppLog" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine AppLog" />
+        <option value="package:mine level:error " />
         <option value="package:mine " />
         <option value="package:mine LoginScreen" />
         <option value="package:mine MainScreen" />
@@ -14,14 +17,12 @@
         <option value="package:mine ConeBuilderScreen" />
         <option value="package:mine rewardMenuItemDetails" />
         <option value="package:mine RewardTiers" />
-        <option value="package:mine level:error " />
         <option value="package:mine iscr'" />
         <option value="package:mine CloudMessagingService" />
         <option value="package:mine lateinit var " />
         <option value="package:mine  CloudMessagingService" />
         <option value="package:mine  " />
         <option value="package:mine fcm" />
-        <option value="package:mine Raghav" />
       </list>
     </option>
   </component>
