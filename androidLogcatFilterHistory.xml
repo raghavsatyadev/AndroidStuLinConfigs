@@ -1,10 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine CloudMessagingService" />
+    <option name="mostRecentlyUsed" value="package:mine AmplifyModel" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine CloudMessagingService" />
+        <option value="package:mine AmplifyModel" />
+        <option value="package:mine ApiLibApp" />
         <option value="package:mine " />
+        <option value="package:mine CloudMessagingService" />
         <option value="package:mine OutletListViewScreen" />
         <option value="package:mine level:error " />
         <option value="package:io.github.raghavsatyadev.scus" />
@@ -21,8 +23,6 @@
         <option value="package:mine RewardTiers" />
         <option value="package:mine iscr'" />
         <option value="package:mine lateinit var " />
-        <option value="package:mine  CloudMessagingService" />
-        <option value="package:mine  " />
       </list>
     </option>
   </component>
