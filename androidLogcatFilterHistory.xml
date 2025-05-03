@@ -1,11 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine AmplifyModel" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine AmplifyModel" />
         <option value="package:mine ApiLibApp" />
-        <option value="package:mine " />
         <option value="package:mine CloudMessagingService" />
         <option value="package:mine OutletListViewScreen" />
         <option value="package:mine level:error " />
