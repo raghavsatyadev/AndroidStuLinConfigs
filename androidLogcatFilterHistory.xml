@@ -1,0 +1,28 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine " />
+        <option value="package:mine AmplifyModel" />
+        <option value="package:mine ApiLibApp" />
+        <option value="package:mine CloudMessagingService" />
+        <option value="package:mine OutletListViewScreen" />
+        <option value="package:mine level:error " />
+        <option value="package:io.github.raghavsatyadev.scus" />
+        <option value="package:mine AppLog" />
+        <option value="package:mine LoginScreen" />
+        <option value="package:mine MainScreen" />
+        <option value="package:mine UiStateManager" />
+        <option value="package:mine showLoader" />
+        <option value="package:mine AppGraph Reward" />
+        <option value="package:mine appGraph" />
+        <option value="package:mine is:crash " />
+        <option value="package:mine ConeBuilderScreen" />
+        <option value="package:mine rewardMenuItemDetails" />
+        <option value="package:mine RewardTiers" />
+        <option value="package:mine iscr'" />
+        <option value="package:mine lateinit var " />
+      </list>
+    </option>
+  </component>
+</application>

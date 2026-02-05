@@ -1,0 +1,16 @@
+<application>
+  <component name="AndroidLogcatSettings">
+    <option name="ignoredTags">
+      <set>
+        <option value="CCodec" />
+        <option value="BLASTBufferQueue" />
+        <option value="MediaCodec" />
+        <option value="CCodecConfig" />
+        <option value="CCodecBufferChannel" />
+        <option value="SurfaceView" />
+        <option value="Codec2-OutputBufferQueue" />
+        <option value="LoadBmp" />
+      </set>
+    </option>
+  </component>
+</application>
