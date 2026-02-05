@@ -1,9 +1,0 @@
-<application>
-  <component name="ScreenRecorderOptions">
-    <option name="filenameTemplate" value="%p_%Y%M%D_%H%m%S" />
-    <option name="postSaveAction" value="Show in Files" />
-    <option name="recordingCount" value="6" />
-    <option name="saveLocation" value="$USER_HOME$/Downloads" />
-    <option name="showTaps" value="true" />
-  </component>
-</application>
