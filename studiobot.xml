@@ -1,8 +1,8 @@
 <application>
   <component name="StudioBotSettings">
-    <option name="contextSharingModeV2" value="AskPerProject" />
-    <option name="dasherProductVariant" value="Free" />
+    <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="onboardedVersion" value="3" />
+    <option name="previewAttachingEnabled" value="true" />
     <option name="queryHistory">
       <list>
         <historyEntry timestamp="1745343896902">@WorkManagerInitializer.kt   @ChildCoreApp.kt ---------------------------- PROCESS STARTED (24127) for package io.github.raghavsatyadev.scus ----------------------------
