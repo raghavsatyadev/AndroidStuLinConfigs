@@ -1,6 +1,8 @@
 <application>
   <component name="ReworkedTerminalUsage"><![CDATA[{
-  "enterKeyPressedTimes": 53
+  "enterKeyPressedTimes": 77,
+  "completionPopupShownTimes": 9,
+  "completionItemChosenTimes": 2
 }]]></component>
   <component name="TerminalOptionsProvider">
     <option name="commandCompletionShowingMode" value="ALWAYS" />
